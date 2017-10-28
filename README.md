@@ -56,13 +56,14 @@ Then, to run `npm install`, gist clone, Decrypt the file, and echo the result.
 - Does the project include a README.md file that is clear?
 
 - Does it handle networking issues?
+```
     ping -q -c 1 -W 1 google.com >/dev/null
     if [[ $? -eq 0 ]]; then
         echo ">>> Network status is OK!"
     else
         echo ">>> Sorry, please check your network connection!"
     fi
-
+```
 - Is there any type of status or reporting for the user and is it clear?
 Network, SSH report, Encrypt/Decrypt report, etc
 
