@@ -8,7 +8,7 @@ This is a Protovate team test.
 
 `$ npm start`
 
-Then, to run `npm install`, gist clone, Decrypt the file, and echo the result.
+Then, will be progress automatically - `npm install`, gist clone, Decrypt the file, and echo the result.
 
 ## NOTES
 
